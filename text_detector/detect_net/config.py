@@ -43,6 +43,8 @@ CELL_SIZE = 7
 BOXES_PER_CELL = 2
 # 权重衰减相关参数
 ALPHA = 0.1
+# drop out probability
+DROP_OUT_PROB = 0.5
 
 # 是否在控制台显示相关输出
 DISP_CONSOLE = False
