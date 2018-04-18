@@ -1,0 +1,222 @@
+Start training ...
+
+                    04-14 15:57:17 Epoch: 2, 
+                    Step: 100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 81.239
+
+                    Speed: 0.627s/iter,
+                    Load: 0.158s/iter,
+                    Remain: 0:24:56
+                    
+04-14 15:57:17 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 15:58:33 Epoch: 4, 
+                    Step: 200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 126.696
+
+                    Speed: 0.607s/iter,
+                    Load: 0.158s/iter,
+                    Remain: 0:23:16
+                    
+04-14 15:58:33 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 15:59:47 Epoch: 5, 
+                    Step: 300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 90.558
+
+                    Speed: 0.598s/iter,
+                    Load: 0.156s/iter,
+                    Remain: 0:21:38
+                    
+04-14 15:59:47 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:01:01 Epoch: 7, 
+                    Step: 400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 74.005
+
+                    Speed: 0.594s/iter,
+                    Load: 0.154s/iter,
+                    Remain: 0:20:10
+                    
+04-14 16:01:01 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:02:14 Epoch: 9, 
+                    Step: 500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 94.919
+
+                    Speed: 0.592s/iter,
+                    Load: 0.153s/iter,
+                    Remain: 0:18:48
+                    
+04-14 16:02:14 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:03:28 Epoch: 10, 
+                    Step: 600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 74.886
+
+                    Speed: 0.590s/iter,
+                    Load: 0.152s/iter,
+                    Remain: 0:17:29
+                    
+04-14 16:03:28 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:04:42 Epoch: 12, 
+                    Step: 700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 57.794
+
+                    Speed: 0.589s/iter,
+                    Load: 0.152s/iter,
+                    Remain: 0:16:12
+                    
+04-14 16:04:42 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:05:55 Epoch: 13, 
+                    Step: 800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.862
+
+                    Speed: 0.588s/iter,
+                    Load: 0.152s/iter,
+                    Remain: 0:14:55
+                    
+04-14 16:05:55 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:07:09 Epoch: 15, 
+                    Step: 900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.202
+
+                    Speed: 0.587s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:13:39
+                    
+04-14 16:07:09 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:08:23 Epoch: 17, 
+                    Step: 1000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.200
+
+                    Speed: 0.587s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:12:24
+                    
+04-14 16:08:23 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:09:37 Epoch: 18, 
+                    Step: 1100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.739
+
+                    Speed: 0.587s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:11:10
+                    
+04-14 16:09:37 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:10:51 Epoch: 20, 
+                    Step: 1200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.675
+
+                    Speed: 0.586s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:09:55
+                    
+04-14 16:10:51 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:12:05 Epoch: 21, 
+                    Step: 1300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.778
+
+                    Speed: 0.586s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:08:40
+                    
+04-14 16:12:05 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:13:19 Epoch: 23, 
+                    Step: 1400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.357
+
+                    Speed: 0.586s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:07:26
+                    
+04-14 16:13:19 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:14:33 Epoch: 25, 
+                    Step: 1500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.232
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:06:11
+                    
+04-14 16:14:33 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:15:46 Epoch: 26, 
+                    Step: 1600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.789
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:04:57
+                    
+04-14 16:15:46 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:17:01 Epoch: 28, 
+                    Step: 1700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.982
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:03:42
+                    
+04-14 16:17:01 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:18:15 Epoch: 29, 
+                    Step: 1800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.894
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:02:28
+                    
+04-14 16:18:15 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:19:28 Epoch: 31, 
+                    Step: 1900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.583
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:01:14
+                    
+04-14 16:19:28 Saving checkpoint file to: data/output/2018_04_14_15_55
+
+                    04-14 16:20:42 Epoch: 33, 
+                    Step: 2000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.259
+
+                    Speed: 0.585s/iter,
+                    Load: 0.151s/iter,
+                    Remain: 0:00:00
+                    
+04-14 16:20:42 Saving checkpoint file to: data/output/2018_04_14_15_55
+Done training.
