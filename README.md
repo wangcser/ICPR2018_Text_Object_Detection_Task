@@ -27,6 +27,7 @@ using YOLO may work fast but preform poorly on this task. and segment method may
 - [x] learn YOLO net and other obj. detection methods
 - [x] analysis the feature in dataset(maybe use cluster method, part C do this work.) 
 - [x] design detect_net, make it work on train and test
+- [ ] add advance tensorflow func. in it, such as loss monitor
 - [ ] adjust detect_net, make it preform some right but not good results
 - [ ] use small train set training
 - [ ] separate the data set to train and test.
