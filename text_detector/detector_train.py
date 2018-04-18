@@ -7,8 +7,8 @@ from text_detector.detect_net.yolo_net import YOLONet
 from text_detector.utils.timer import Timer
 from text_detector.utils.import_data import text_detect_obj
 from text_detector.utils.logging import yolo_log
-from text_detector.utils.logging import yolo_log
 from pre_process.report import send_email
+
 
 slim = tf.contrib.slim
 
@@ -19,7 +19,6 @@ slim = tf.contrib.slim
 
 # 在训练的同时，对我们的训练模型(网络权重)进行保存，这样以后可以直接进行调
 # 用这些权重；同时，每隔一定的迭代次数便写入 TensorBoard，这样在最后可以观察整体的情况。
-
 
 
 class Solver(object):
@@ -49,7 +48,7 @@ class Solver(object):
         # TensorFlow 运行到第二个拥有相同名字的变量的时候，就会报错。
 
         self.variable_to_restore = tf.global_variables()
-        self.saver = tf.train.Saver(self.variable_to_restore, max_to_keep=None) #write_version=tf.train.SaverDef.V1)
+        self.saver = tf.train.Saver(self.variable_to_restore, max_to_keep=None)
         self.ckpt_file = os.path.join(self.output_dir, 'yolo_text_detect.ckpt')
 
         # tf 中使用 summary 来可视化我们的数据流，最终使用一个merge_all 函数来管理所有的摘要
@@ -211,8 +210,8 @@ def main():
     if args.data_dir != cfg.DATA_PATH:
         update_config_paths(args.data_dir, args.weights)
 
-    os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-    #os.environ['CUDA_VISIBLE_DEVICES'] = cfg.GPU
+    # os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+    os.environ['CUDA_VISIBLE_DEVICES'] = cfg.GPU
 
     yolo = YOLONet()
 
@@ -230,4 +229,5 @@ def main():
 if __name__ == '__main__':
 
     # python train.py --weights YOLO_small.ckpt --gpu 0
+
     main()

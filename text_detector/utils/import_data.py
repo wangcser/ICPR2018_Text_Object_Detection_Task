@@ -1,5 +1,3 @@
-import os
-import math
 import pickle
 import copy
 from cv2 import *
@@ -7,25 +5,28 @@ import numpy as np
 import pandas as pd
 import text_detector.detect_net.config as cfg
 
+
 class text_detect_obj(object):
 
     def __init__(self, phase, rebuild=False):
+        # rebuild use to update the data-label cache.
+
         self.data_path = cfg.DATA_PATH
         self.cache_path = cfg.CACHE_PATH
         self.batch_size = cfg.BATCH_SIZE
         self.image_size = cfg.IMAGE_SIZE
         self.cell_size = cfg.CELL_SIZE
-        # self.classes = cfg.CLASSES  # should be empty
-        # self.class_to_ind = dict(zip(self.classes, range(len(self.classes))))   # should be 0
         self.flipped = cfg.FLIPPED
 
         # train or test stage
         self.phase = phase
-        # ?
+        # update the label cache
         self.rebuild = rebuild
-        # ?
+
+        # feed tools
         self.cursor = 0
         self.epoch = 1
+
         # ground true labels
         self.gt_labels = None
 
@@ -75,7 +76,6 @@ class text_detect_obj(object):
 
     def prepare(self):
 
-        #
         gt_labels = self.load_labels()
         if self.flipped:
             print('Appending horizontally-flipped training examples ...')
@@ -119,7 +119,6 @@ class text_detect_obj(object):
         print('Processing gt_labels from: ' + self.data_path)
 
         if self.phase == 'train':
-
             # 返回图片的 index
             txtname = os.path.join(
                 self.data_path, 'train_data', 'index', 'trainval.txt')
@@ -167,13 +166,9 @@ class text_detect_obj(object):
         h_ratio = 1.0 * self.image_size / im.shape[0]
         w_ratio = 1.0 * self.image_size / im.shape[1]
 
-        #print(h_ratio,w_ratio)
-
         # import labels
         label = np.zeros((self.cell_size, self.cell_size, 5))
 
-
-        # filename = '/media/super/Dev Data/Data Set & Weight/ICPR_text_train/train_1000/sorted_txt_1000/' + index + '.txt'
         filename = os.path.join(self.data_path, 'train_data', 'sorted_txt_1000', index + '.txt')
 
         # pandas data-frame, 4 points each box
@@ -192,7 +187,6 @@ class text_detect_obj(object):
             y = [point[i] for i in [1, 3, 5, 7]]
 
             # reset the co-ordinary prevent the cell overflow
-            # why in this place min just goes wrong !!!
             # 可能是导入的有的模块中存在min，max方法导致覆盖了python 自带的方法！！！
             # 使用np.min 可以解决……
 
@@ -201,19 +195,17 @@ class text_detect_obj(object):
             x2 = max(min((float(np.max(x)) - 1) * w_ratio, 448 - 1), 0)
             y2 = max(min((float(np.max(y)) - 1) * h_ratio, 448 - 1), 0)
 
+            # 本来 min(x)应该输出一个值, 但是现在输出的是一个4-d list
             # 只能这么处理
             x1 = x1[0][0]
             x2 = x2[0][0]
             y1 = y1[0][0]
             y2 = y2[0][0]
 
-            # print(x1,y1,x2,y2)
             # lower strip use to clean the string.
 
             # nn use the central point x, y and width, height
             boxes = [(x2 + x1) / 2.0, (y2 + y1) / 2.0, x2 - x1, y2 - y1]
-            #print(boxes)
-            # print(boxes)
 
             # cell_id of obj detected. use central point to calculate the cell position.
             x_ind = int(boxes[0] * self.cell_size / self.image_size)

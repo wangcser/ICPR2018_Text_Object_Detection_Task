@@ -20,11 +20,6 @@ class Detector(object):
         self.net = net
         self.weights_file = weight_file
 
-        # those two args should be removed.
-        self.classes = cfg.CLASSES
-        # self.num_class = len(self.classes)
-        self.num_class = 20
-
         self.image_size = cfg.IMAGE_SIZE
         self.cell_size = cfg.CELL_SIZE
         self.boxes_per_cell = cfg.BOXES_PER_CELL
@@ -107,17 +102,17 @@ class Detector(object):
     # input is: 1*490 in list type.
     # output is n*5
     def interpret_output(self, output):
-        '''
-        # probs in 7*7*2*20
+        """
+        probs in 7*7*2*20
         probs = np.zeros((self.cell_size, self.cell_size,
                           self.boxes_per_cell, self.num_class))
 
-        # class_probs is: 7*7*0 so this is 0,maybe remove it.
-        # self.boundary1 = 0
+        class_probs is: 7*7*0 so this is 0,maybe remove it.
+        self.boundary1 = 0
         class_probs = np.reshape(
             output[0:self.boundary1],
             (self.cell_size, self.cell_size, self.num_class))
-        '''
+        """
 
         # scales: 0-97
         # the first 98 nums is the P(obj) for each bnd in cells.
@@ -171,9 +166,7 @@ class Detector(object):
 
         # filter the bnd to only one in each cell.
         filter_mat_probs = np.array(scales >= self.threshold, dtype='bool')
-        #filter_mat_probs = np.array(probs >= 0.001, dtype='bool')
         filter_mat_boxes = np.nonzero(filter_mat_probs)
-        #print(filter_mat_boxes)
 
         # filter box
         boxes_filtered = boxes[filter_mat_boxes[0],
@@ -181,20 +174,10 @@ class Detector(object):
         # filter probs
         probs_filtered = scales[filter_mat_probs]
 
-        '''
-        # filter classes
-        classes_num_filtered = np.argmax(
-            filter_mat_probs, axis=3)[
-            filter_mat_boxes[0], filter_mat_boxes[1], filter_mat_boxes[2]]
-        '''
-
         argsort = np.array(np.argsort(probs_filtered))[::-1]
         boxes_filtered = boxes_filtered[argsort]
 
         probs_filtered = probs_filtered[argsort]
-
-        #classes_num_filtered = classes_num_filtered[argsort]
-        #print(classes_num_filtered)
 
         for i in range(len(boxes_filtered)):
             if probs_filtered[i] == 0:
@@ -206,13 +189,11 @@ class Detector(object):
         filter_iou = np.array(probs_filtered > 0.0, dtype='bool')
         boxes_filtered = boxes_filtered[filter_iou]
         probs_filtered = probs_filtered[filter_iou]
-        #classes_num_filtered = classes_num_filtered[filter_iou]
 
         result = []
         for i in range(len(boxes_filtered)):
             result.append(
                 [
-                    #self.classes[classes_num_filtered[i]],
                     boxes_filtered[i][0],
                     boxes_filtered[i][1],
                     boxes_filtered[i][2],
@@ -281,7 +262,7 @@ def main():
     #parser.add_argument('--weight_dir', default='weights', type=str)
 
     parser.add_argument('--weights', default="yolo_text_detect.ckpt-2000", type=str)
-    parser.add_argument('--weight_dir', default='output/2018_04_14_15_55/', type=str)
+    parser.add_argument('--weight_dir', default='output/2018_04_18_21_47/', type=str)
 
     parser.add_argument('--data_dir', default="data", type=str)
     parser.add_argument('--gpu', default='', type=str)
@@ -297,7 +278,7 @@ def main():
     detector = Detector(yolo, weight_file)
 
     # detect from image file
-    imname = 'test/000003.jpg'
+    imname = 'test/000009.jpg'
 
     # pass img to the net, get the prediction
     detector.image_detector(imname)

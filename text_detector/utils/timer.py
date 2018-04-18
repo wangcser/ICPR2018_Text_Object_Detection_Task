@@ -3,9 +3,9 @@ import datetime
 
 
 class Timer(object):
-    '''
+    """
     A simple timer.
-    '''
+    """
 
     def __init__(self):
         self.init_time = time.time()
@@ -18,7 +18,7 @@ class Timer(object):
 
     def tic(self):
         # using time.time instead of time.clock because time time.clock
-        # does not normalize for multithreading
+        # does not normalize for multi threading
         self.start_time = time.time()
 
     def toc(self, average=True):

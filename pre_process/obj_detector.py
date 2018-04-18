@@ -27,10 +27,10 @@ class obj_detector:
         # pandas data-frame, 4 points each box
         text_point = pd.read_csv(self.label, header=None, sep=',')
 
-        print('load img from: ', self.img)
+        # print('load img from: ', self.img)
         return im, text_point
 
-    def visual(self, show_grid=False, rectangle=True, save=False):
+    def visual(self, show_img=True, show_grid=False, rectangle=True, save=False):
 
         img = draw_boxes(self.img, self.label, rectangle=rectangle)
 
@@ -49,12 +49,10 @@ class obj_detector:
                 draw_grid.line(((0, y_step), (img_height, y_step)), fill='black')
 
         if save:
-
             img.save(cfg.PROJECT_PATH + '/pre_process/markdown_resource/' + '/demo_box_cell.jpg')  # 保存图片
 
-            pass
-
-        img.show()
+        if show_img:
+            img.show()
 
     def show_central(self):
         pass
@@ -115,4 +113,4 @@ if __name__ == '__main__':
 
     obj = obj_detector(index)
     obj.cal_box(False)
-    obj.visual(show_grid=True, rectangle=False, save=False)
+    obj.visual(show_img=False, show_grid=True, rectangle=False, save=False)
