@@ -1,9 +1,9 @@
+import os
 import cv2
 import pre_process.config as cfg
 
 
 def show_img(name):
-
     """
     param img_name:
     return: img info.
@@ -25,15 +25,13 @@ def show_img(name):
     # cv2.waitKey()
 
     print('img type: ', type(image))
-    print('raw size:', raw_size, 're size: ', resize)
+    print('raw size:', raw_size,'\n', 're size:', resize)
 
 
 if __name__ == '__main__':
 
-    data_path = cfg.DATA_PATH
     img_path = cfg.IMG_PATH
-    label_path = cfg.LABEL_PATH  #
-    img_path = '/sorted_image_1000/'
     img_name = '000001.jpg'
+    img = os.path.join(img_path, img_name)
 
-    show_img(data_path + img_path + img_name)
+    show_img(img)

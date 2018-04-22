@@ -3,6 +3,7 @@
 实现思路2：直接调用 obj_detector 模块，查看真实数据中无法有效输出的data，下面采用该思路实现
 """
 from pre_process.obj_detector import obj_detector
+import pre_process.config as cfg
 
 
 if __name__ == "__main__":
@@ -18,9 +19,11 @@ if __name__ == "__main__":
             obj.visual(show_img=False, show_grid=False, rectangle=False, save=False)
 
         except:
+            file_name = cfg.BROKEN_INDEX_PATH
+            with open(file_name, 'a') as wf:
+                wf.write(str(index) + '\n')
+
             count += 1
             print("broken index: ", index)
     print("total broken data is: ", count)
     print("you should delete this number in trainval.txt")
-
-

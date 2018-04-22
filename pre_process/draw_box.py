@@ -65,7 +65,7 @@ if __name__ == '__main__':
         img = draw_boxes(file_img, file_label, True)
         img.show()
 
-        img.save(cfg.PROJECT_PATH + '/pre_process/markdown_resource/' + '/demo_rec.jpg')  # 保存图片
+        img.save(cfg.SAVE_PATH + 'demo_rec.jpg')  # 保存图片
     else:
         pass
 

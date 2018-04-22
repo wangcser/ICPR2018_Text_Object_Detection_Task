@@ -9,20 +9,12 @@ class timer:
 
     # 计时开始
     def start(self):
-        #
-        # localtime return struct_time
-        # time() return float_num form 1970
-        # float in .17th
-        #
         self.start_time = t.time()
-        # self.start_time = t.localtime()
         # print("计时开始", self.start_time)
 
     # 计时结束
     def stop(self):
         self.stop_time = t.time()
-        # self.stop_time = t.localtime()
-        # self.__calc()
         self.__calc_lasted_time()
         # print("计时结束", self.stop_time)
 

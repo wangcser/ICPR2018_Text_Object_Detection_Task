@@ -29,8 +29,10 @@ using YOLO may work fast but preform poorly on this task. and segment method may
 - [x] design detect_net, make it work on train and test
 - [x] auto check data validation.
 - [x] fix the bug that, the box area can't match the full image.
-- [ ] re optimise the code. 
-- [ ] modify the path methods, use the relevant path.
+- [x] re optimise the code. 
+- [x] modify the path methods, use the relevant path.
+- [x] prepare the data set about 10000
+- [ ] mid size train 100,000 samples.
 - [ ] add advance tensorflow func. in it, such as loss monitor
 - [ ] adjust detect_net, make it preform some right but not good results
 - [ ] use small train set training

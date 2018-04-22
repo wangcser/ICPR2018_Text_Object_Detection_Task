@@ -17,15 +17,6 @@ WEIGHTS_DIR = os.path.join(DATA_PATH, 'weights')
 WEIGHTS_FILE = None
 # WEIGHTS_FILE = os.path.join(DATA_PATH, 'weights', 'YOLO_text_detector.ckpt')
 
-""" in detection task we just don't need the class labels
-CLASSES = []
-CLASSES = ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
-           'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse',
-           'motorbike', 'person', 'pottedplant', 'sheep', 'sofa',
-           'train', 'tvmonitor']    # 20 class
-"""
-
-
 # data set enhancement.
 # 是否对样本图像进行flip（水平镜像）操作
 FLIPPED = False
@@ -38,7 +29,7 @@ FLIPPED = False
 # 图像size
 IMAGE_SIZE = 448
 # 网格 size
-CELL_SIZE = 7
+CELL_SIZE = 14
 # 每个 cell 中 bounding box 数量
 BOXES_PER_CELL = 2
 # 权重衰减相关参数
@@ -72,12 +63,12 @@ STAIRCASE = True
 # batch_size default is 45
 BATCH_SIZE = 16
 # 最大迭代次数 default is 15000
-MAX_ITER = 2000
+MAX_ITER = 100000
 # 日志记录迭代步数, means logs num. default is 10
 SUMMARY_ITER = 10
 # 原始为每1000个样本存档一次权重，每100个样本输出一次网络情况，这样会消耗5GB的空间，现在改为每5000存档一次
 # default is 1000
-SAVE_ITER = 1000
+SAVE_ITER = 20000
 
 
 #
@@ -85,6 +76,6 @@ SAVE_ITER = 1000
 #
 # 测试时的相关参数
 # 阈值参数 box confidence default is 0.2
-THRESHOLD = 0.0001
+THRESHOLD = 0.01
 # IoU 参数
 IOU_THRESHOLD = 0.5

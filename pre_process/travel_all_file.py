@@ -2,28 +2,28 @@ import os
 import pre_process.config as cfg
 
 
-def file_list(file_dir):
+def file_list(travel_dir, show=True):
 
-    if not os.path.exists(file_dir):
-        print('file_dir is not exist.')
+    if not os.path.exists(travel_dir):
+        print('travel_dir is not exist.')
         return
 
     file_name_list = []
 
-    for root, dirs, files in os.walk(file_dir):
+    for root, dirs, files in os.walk(travel_dir):
         for file in files:
             file_name_list.append(os.path.splitext(file)[0])
+
+    if show:
+        file_name_list = sorted(file_name_list)
+        print(file_name_list)
     return file_name_list
 
 
 if __name__ == '__main__':
 
-    data_path = cfg.DATA_PATH
     label_path = cfg.LABEL_PATH
 
-    dir_path = os.path.join(data_path, label_path)
-    name_list = file_list(dir_path)  # with out order.
-
-    print(name_list)
+    name_list = file_list(label_path, show=True)  # with out order.
 
     print('file in list, len: ', len(name_list))

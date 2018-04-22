@@ -1,5 +1,4 @@
 import cv2
-import os
 import pandas as pd
 from PIL import ImageDraw
 import pre_process.config as cfg
@@ -10,8 +9,8 @@ class obj_detector:
 
     def __init__(self, img_index):
 
-        self.dst_img_path = os.path.join(cfg.DATA_PATH, cfg.IMG_PATH)
-        self.dst_label_path = os.path.join(cfg.DATA_PATH, cfg.LABEL_PATH)
+        self.dst_img_path = cfg.IMG_PATH
+        self.dst_label_path = cfg.LABEL_PATH
 
         self.index = '%06d' % img_index
 
@@ -49,7 +48,7 @@ class obj_detector:
                 draw_grid.line(((0, y_step), (img_height, y_step)), fill='black')
 
         if save:
-            img.save(cfg.PROJECT_PATH + '/pre_process/markdown_resource/' + '/demo_box_cell.jpg')  # 保存图片
+            img.save(cfg.SAVE_PATH + 'demo.jpg')  # 保存图片
 
         if show_img:
             img.show()
@@ -70,8 +69,6 @@ class obj_detector:
         for idx, row in text_point.iterrows():
             # index是一个numpy.int64的类型
             # row是一个Series类型，它的index是data的列名
-            # print('idx:', idx)
-            # print('row:', row)
 
             point = row.loc[range(8)].tolist()  # 依次读取八个点的数据
             x = [point[i] for i in [0, 2, 4, 6]]
@@ -98,11 +95,6 @@ class obj_detector:
                 # cell in 0-self.CELL_SIZE-1
                 print('obj in cell: ', x_ind, y_ind)    # tells that the cell is too large
 
-                # in cv2, image store in height, width, channel
-                # label[y_ind, x_ind, 0] = 1  # have obj
-                # label[y_ind, x_ind, 1:5] = boxes  # box of obj
-                # the final output is 7*7*5 np.3d-array
-
         if output_result:
             print('obj num:' + str(count))
 
@@ -113,4 +105,4 @@ if __name__ == '__main__':
 
     obj = obj_detector(index)
     obj.cal_box(False)
-    obj.visual(show_img=True, show_grid=True, rectangle=False, save=False)
+    obj.visual(show_img=True, show_grid=True, rectangle=False, save=True)

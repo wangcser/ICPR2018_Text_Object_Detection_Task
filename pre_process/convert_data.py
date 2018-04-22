@@ -23,7 +23,7 @@ def trans_img(raw_img, dst_img):
 
     # restore the img  / with new code
     cv2.imwrite(dst_img, img, [int(cv2.IMWRITE_JPEG_QUALITY), 100])
-    #shutil.copyfile(raw_img, dst_img)
+    shutil.copyfile(raw_img, dst_img)
 
 
 def trans_label(raw_label, dst_label):
@@ -49,14 +49,14 @@ def parser_line(line, dst_file):
 
 if __name__ == '__main__':
 
-    raw_img_path = os.path.join(cfg.RAW_DATA_PATH, cfg.RAW_IMG_PATH)
-    raw_label_path = os.path.join(cfg.RAW_DATA_PATH, cfg.RAW_LABEL_PATH)
+    raw_img_path = cfg.RAW_IMG_PATH
+    raw_label_path = cfg.RAW_LABEL_PATH
 
-    dst_img_path = os.path.join(cfg.DATA_PATH, cfg.IMG_PATH)
-    dst_label_path = os.path.join(cfg.DATA_PATH, cfg.LABEL_PATH)
+    dst_img_path = cfg.IMG_PATH
+    dst_label_path = cfg.LABEL_PATH
 
-    print('raw data dir: ', raw_label_path)
-    print('convert data dir: ', dst_label_path)
+    print('raw data dir: ', cfg.RAW_DATA_PATH)
+    print('convert data dir: ', cfg.DATA_PATH)
 
     file_list = file_list(raw_label_path)
 
@@ -65,7 +65,7 @@ if __name__ == '__main__':
     timer = timer()
     timer.start()
 
-    if not file_list is None:
+    if file_list is not None:
         for item in file_list:
 
             # raw_data
@@ -78,8 +78,8 @@ if __name__ == '__main__':
             dst_label = dst_label_path + dst_index + '.txt'
 
             # trans
-            # trans_img(raw_img, dst_img)
-            # trans_label(raw_label, dst_label)
+            trans_img(raw_img, dst_img)
+            trans_label(raw_label, dst_label)
 
             count += 1
     else:
