@@ -1,11 +1,11 @@
 """
 the config info. in pre process.
 """
-
+import os
 
 # project path
 PROJECT_PATH = '/home/super/PycharmProjects/ICPR2018_text_detection'
-DATA_PATH = '/home/super/PycharmProjects/ICPR2018_text_detection/text_detector/data/train_data'
+DATA_PATH = os.path.join(PROJECT_PATH, 'text_detector/data/train_data')
 IMG_PATH = 'sorted_image_1000/'
 LABEL_PATH = 'sorted_txt_1000/'
 
@@ -22,3 +22,5 @@ SUBJECT = 'Text Detection Task Running Report'
 CONTENT = '''
     下方为项目目前运行情况：
     '''
+
+print(DATA_PATH)

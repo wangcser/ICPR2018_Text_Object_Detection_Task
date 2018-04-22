@@ -28,6 +28,8 @@ using YOLO may work fast but preform poorly on this task. and segment method may
 - [x] analysis the feature in dataset(maybe use cluster method, part C do this work.) 
 - [x] design detect_net, make it work on train and test
 - [x] auto check data validation.
+- [x] fix the bug that, the box area can't match the full image.
+- [ ] re optimise the code. 
 - [ ] modify the path methods, use the relevant path.
 - [ ] add advance tensorflow func. in it, such as loss monitor
 - [ ] adjust detect_net, make it preform some right but not good results

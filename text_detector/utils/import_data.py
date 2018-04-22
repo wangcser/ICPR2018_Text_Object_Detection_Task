@@ -68,6 +68,7 @@ class text_detect_obj(object):
 
         # 转换色彩空间为 RGB，这里看不懂，调整通道的意义在哪里？
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB).astype(np.float32)
+        # 将每个像素点的值压缩到 -1~+1
         image = (image / 255.0) * 2.0 - 1.0
         # 是否做图像翻转--增强操作
         if flipped:

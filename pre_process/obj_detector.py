@@ -113,4 +113,4 @@ if __name__ == '__main__':
 
     obj = obj_detector(index)
     obj.cal_box(False)
-    obj.visual(show_img=False, show_grid=True, rectangle=False, save=False)
+    obj.visual(show_img=True, show_grid=True, rectangle=False, save=False)

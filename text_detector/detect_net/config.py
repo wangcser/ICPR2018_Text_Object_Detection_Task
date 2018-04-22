@@ -85,6 +85,6 @@ SAVE_ITER = 1000
 #
 # 测试时的相关参数
 # 阈值参数 box confidence default is 0.2
-THRESHOLD = 0.00001
+THRESHOLD = 0.0001
 # IoU 参数
 IOU_THRESHOLD = 0.5

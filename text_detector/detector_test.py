@@ -27,7 +27,7 @@ class Detector(object):
         self.iou_threshold = cfg.IOU_THRESHOLD
 
         # below is the offset for each type of data
-        self.boundary2 = self.cell_size * self.cell_size * self.boxes_per_cell
+        self.boundary = self.cell_size * self.cell_size * self.boxes_per_cell
 
         self.sess = tf.Session()
         self.sess.run(tf.global_variables_initializer())
@@ -65,67 +65,63 @@ class Detector(object):
 
         img_h, img_w, _ = img.shape
 
-        # reshape the img
+        # reshape the img to cv2 matrix.
         inputs = cv2.resize(img, (self.image_size, self.image_size))
         inputs = cv2.cvtColor(inputs, cv2.COLOR_BGR2RGB).astype(np.float32)
+        # 将每个像素点的值压缩到 -1~+1
         inputs = (inputs / 255.0) * 2.0 - 1.0
+
+        # 1*448*448*3
         inputs = np.reshape(inputs, (1, self.image_size, self.image_size, 3))
 
         # raw result is:
         result = self.detect_from_cvmat(inputs)[0]
 
+        print(img_w, img_h)
+        print(result[0][0], result[0][1], result[0][2], result[0][3])
         # reshape the labels in true scale.
         for i in range(len(result)):
-            result[i][1] *= (1.0 * img_w / self.image_size)
-            result[i][2] *= (1.0 * img_h / self.image_size)
-            result[i][3] *= (1.0 * img_w / self.image_size)
-            result[i][4] *= (1.0 * img_h / self.image_size)
-
+            result[i][0] *= (1.0 * img_w / self.image_size)
+            result[i][1] *= (1.0 * img_h / self.image_size)
+            result[i][2] *= (1.0 * img_w / self.image_size)
+            result[i][3] *= (1.0 * img_h / self.image_size)
+            print(result[i][:])
         # reshaped result is:
         return result
 
     def detect_from_cvmat(self, inputs):
+
         # net_output is: 1*490
+        # input is: 1*448*448*3
         net_output = self.sess.run(self.net.logits,
                                    feed_dict={self.net.images: inputs})
         results = []
         for i in range(net_output.shape[0]):
 
             # input the whole info, output the result.
+            # net_output[0] is a list in 490 element.
             results.append(self.interpret_output(net_output[i]))
 
         # interpret the raw 1*490 result into format result n*5.
         # result is a n*5 matrix, n is the num of box, 5 = 4 + 1
-        print(results)
+            print('this result sould be right: ', results)
         return results
 
     # input is: 1*490 in list type.
     # output is n*5
     def interpret_output(self, output):
-        """
-        probs in 7*7*2*20
-        probs = np.zeros((self.cell_size, self.cell_size,
-                          self.boxes_per_cell, self.num_class))
-
-        class_probs is: 7*7*0 so this is 0,maybe remove it.
-        self.boundary1 = 0
-        class_probs = np.reshape(
-            output[0:self.boundary1],
-            (self.cell_size, self.cell_size, self.num_class))
-        """
-
         # scales: 0-97
         # the first 98 nums is the P(obj) for each bnd in cells.
         # change to: 7*7*2
         scales = np.reshape(
-            output[0:self.boundary2],
+            output[0:self.boundary],
             (self.cell_size, self.cell_size, self.boxes_per_cell))
 
         # boxes: 98-490
         # the second 392 nums is the bnd axis for each bnd in cells.
         # change to: 7*7*2*4
         boxes = np.reshape(
-            output[self.boundary2:],
+            output[self.boundary:],
             (self.cell_size, self.cell_size, self.boxes_per_cell, 4))
 
         # use bnd info cal each box offset.
@@ -278,7 +274,7 @@ def main():
     detector = Detector(yolo, weight_file)
 
     # detect from image file
-    imname = 'test/000009.jpg'
+    imname = 'test/000001.jpg'
 
     # pass img to the net, get the prediction
     detector.image_detector(imname)
