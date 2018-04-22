@@ -29,7 +29,7 @@ FLIPPED = False
 # 图像size
 IMAGE_SIZE = 448
 # 网格 size
-CELL_SIZE = 14
+CELL_SIZE = 28
 # 每个 cell 中 bounding box 数量
 BOXES_PER_CELL = 2
 # 权重衰减相关参数
@@ -62,13 +62,14 @@ DECAY_RATE = 0.1
 STAIRCASE = True
 # batch_size default is 45
 BATCH_SIZE = 16
-# 最大迭代次数 default is 15000
-MAX_ITER = 100000
+# 最大迭代次数 default is 15000, 100,000 need about 21 hour.
+# i choose 30,000 will cost about 7 hours.
+MAX_ITER = 30000
 # 日志记录迭代步数, means logs num. default is 10
 SUMMARY_ITER = 10
 # 原始为每1000个样本存档一次权重，每100个样本输出一次网络情况，这样会消耗5GB的空间，现在改为每5000存档一次
 # default is 1000
-SAVE_ITER = 20000
+SAVE_ITER = 10000
 
 
 #
@@ -76,6 +77,6 @@ SAVE_ITER = 20000
 #
 # 测试时的相关参数
 # 阈值参数 box confidence default is 0.2
-THRESHOLD = 0.01
+THRESHOLD = 0.02
 # IoU 参数
 IOU_THRESHOLD = 0.5
