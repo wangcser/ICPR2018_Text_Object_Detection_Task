@@ -274,7 +274,7 @@ def main():
     detector = Detector(yolo, weight_file)
 
     # detect from image file
-    imname = 'test/000008.jpg'
+    imname = 'test/000001.jpg'
 
     # pass img to the net, get the prediction
     detector.image_detector(imname)

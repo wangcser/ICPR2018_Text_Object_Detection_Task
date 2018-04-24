@@ -50,17 +50,17 @@ if __name__ == '__main__':
     # load file from dir.
     # if dir is empty, print: not exist.
     dir_path = os.path.join(data_path, label_path)
-    file_name_list = file_list(dir_path)
+    file_name_list = file_list(dir_path, False)
 
     # get a file name from file list(with out the path info.).
-    if not file_name_list is None:
+    if file_name_list is not None:
 
         # you can also name the file_index.
         # file_name = file_name_list[1]
         file_index = '000001'
 
-        file_img = os.path.join(data_path, img_path, '%s.jpg' % file_index)  # 图片的地址
-        file_label = os.path.join(data_path, label_path, '%s.txt' % file_index)  # 描述文件的地址
+        file_img = os.path.join(img_path, '%s.jpg' % file_index)  # 图片的地址
+        file_label = os.path.join(label_path, '%s.txt' % file_index)  # 描述文件的地址
 
         img = draw_boxes(file_img, file_label, True)
         img.show()

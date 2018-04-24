@@ -8,7 +8,7 @@ def create_index():
     if some data broken, you can just remove it from index file to avoid using it.
     :return: data index
     """
-    index_size = 9000
+    index_size = 1000
     index_path = cfg.INDEX_PATH
     broken_index_path = cfg.BROKEN_INDEX_PATH
 

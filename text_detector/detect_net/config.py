@@ -15,7 +15,7 @@ WEIGHTS_DIR = os.path.join(DATA_PATH, 'weights')
 
 # choose use fine tuning weights or not.
 WEIGHTS_FILE = None
-# WEIGHTS_FILE = os.path.join(DATA_PATH, 'weights', 'YOLO_text_detector.ckpt')
+# WEIGHTS_FILE = os.path.join(DATA_PATH, 'weights', 'yolo_text_detect.ckpt-30000')
 
 # data set enhancement.
 # 是否对样本图像进行flip（水平镜像）操作
@@ -64,12 +64,12 @@ STAIRCASE = True
 BATCH_SIZE = 16
 # 最大迭代次数 default is 15000, 100,000 need about 21 hour.
 # i choose 30,000 will cost about 7 hours.
-MAX_ITER = 30000
+MAX_ITER = 10000
 # 日志记录迭代步数, means logs num. default is 10
 SUMMARY_ITER = 10
 # 原始为每1000个样本存档一次权重，每100个样本输出一次网络情况，这样会消耗5GB的空间，现在改为每5000存档一次
 # default is 1000
-SAVE_ITER = 10000
+SAVE_ITER = 20000
 
 
 #

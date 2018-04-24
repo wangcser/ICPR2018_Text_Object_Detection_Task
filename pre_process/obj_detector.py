@@ -18,7 +18,7 @@ class obj_detector:
         self.label = self.dst_label_path + self.index + '.txt'
 
         self.IMG_SIZE = 448
-        self.CELL_SIZE = 7
+        self.CELL_SIZE = 28
 
     def load_data(self):
 
@@ -48,7 +48,7 @@ class obj_detector:
                 draw_grid.line(((0, y_step), (img_height, y_step)), fill='black')
 
         if save:
-            img.save(cfg.SAVE_PATH + 'demo.jpg')  # 保存图片
+            img.save(cfg.SAVE_PATH + 'gt_result_grid_rect.jpg')  # 保存图片
 
         if show_img:
             img.show()
@@ -105,4 +105,4 @@ if __name__ == '__main__':
 
     obj = obj_detector(index)
     obj.cal_box(False)
-    obj.visual(show_img=True, show_grid=True, rectangle=False, save=True)
+    obj.visual(show_img=True, show_grid=True, rectangle=True, save=True)
