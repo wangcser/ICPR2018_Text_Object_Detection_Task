@@ -143,7 +143,7 @@ class text_detect_obj(object):
 
             if num == 0:
                 continue
-            imname = os.path.join(self.data_path, 'train_data', 'sorted_image_1000', index + '.jpg')
+            imname = os.path.join(self.data_path, 'train_data', 'sorted_image_9000', index + '.jpg')
 
             # 将所有需要的信息组装成一个 dict
             # img_path, label, flipped_flags
@@ -160,7 +160,7 @@ class text_detect_obj(object):
     def load_label(self, index):
 
         # import img
-        imname = os.path.join(self.data_path, 'train_data', 'sorted_image_1000', index + '.jpg')
+        imname = os.path.join(self.data_path, 'train_data', 'sorted_image_9000', index + '.jpg')
         im = cv2.imread(imname)
 
         # this way calu the ratio in width and height
@@ -170,7 +170,7 @@ class text_detect_obj(object):
         # import labels
         label = np.zeros((self.cell_size, self.cell_size, 5))
 
-        filename = os.path.join(self.data_path, 'train_data', 'sorted_txt_1000', index + '.txt')
+        filename = os.path.join(self.data_path, 'train_data', 'sorted_txt_9000', index + '.txt')
 
         # pandas data-frame, 4 points each box
         text_point = pd.read_csv(filename, header=None, sep=',')

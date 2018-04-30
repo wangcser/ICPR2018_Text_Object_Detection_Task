@@ -6,3 +6,3449 @@ Start training ...
 Start training ...
 Start training ...
 Start training ...
+Start training ...
+Restoring weights from: data/weights/yolo_text_detect.ckpt-30000
+Start training ...
+Restoring weights from: data/weights/yolo_text_detect.ckpt-30000
+Start training ...
+
+                    04-24 17:13:45 Epoch: 1, 
+                    Step: 100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.804
+
+                    Speed: 0.635s/iter,
+                    Load: 0.130s/iter,
+                    Remain: 19:09:22
+                    
+
+                    04-24 17:14:59 Epoch: 1, 
+                    Step: 200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 29.195
+
+                    Speed: 0.613s/iter,
+                    Load: 0.137s/iter,
+                    Remain: 18:45:44
+                    
+
+                    04-24 17:16:14 Epoch: 1, 
+                    Step: 300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.509
+
+                    Speed: 0.609s/iter,
+                    Load: 0.141s/iter,
+                    Remain: 18:44:13
+                    
+
+                    04-24 17:17:30 Epoch: 1, 
+                    Step: 400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 37.895
+
+                    Speed: 0.609s/iter,
+                    Load: 0.143s/iter,
+                    Remain: 18:45:39
+                    
+
+                    04-24 17:18:42 Epoch: 1, 
+                    Step: 500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.319
+
+                    Speed: 0.604s/iter,
+                    Load: 0.141s/iter,
+                    Remain: 18:34:38
+                    
+
+                    04-24 17:19:54 Epoch: 2, 
+                    Step: 600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.392
+
+                    Speed: 0.602s/iter,
+                    Load: 0.140s/iter,
+                    Remain: 18:27:40
+                    
+
+                    04-24 17:21:06 Epoch: 2, 
+                    Step: 700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.296
+
+                    Speed: 0.599s/iter,
+                    Load: 0.138s/iter,
+                    Remain: 18:20:55
+                    
+
+                    04-24 17:22:18 Epoch: 2, 
+                    Step: 800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.938
+
+                    Speed: 0.598s/iter,
+                    Load: 0.138s/iter,
+                    Remain: 18:16:28
+                    
+
+                    04-24 17:23:29 Epoch: 2, 
+                    Step: 900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.722
+
+                    Speed: 0.596s/iter,
+                    Load: 0.136s/iter,
+                    Remain: 18:10:22
+                    
+
+                    04-24 17:24:39 Epoch: 2, 
+                    Step: 1000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.540
+
+                    Speed: 0.595s/iter,
+                    Load: 0.134s/iter,
+                    Remain: 18:04:45
+                    
+
+                    04-24 17:25:51 Epoch: 2, 
+                    Step: 1100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.690
+
+                    Speed: 0.594s/iter,
+                    Load: 0.133s/iter,
+                    Remain: 18:00:52
+                    
+
+                    04-24 17:27:02 Epoch: 3, 
+                    Step: 1200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.511
+
+                    Speed: 0.593s/iter,
+                    Load: 0.133s/iter,
+                    Remain: 17:57:19
+                    
+
+                    04-24 17:28:12 Epoch: 3, 
+                    Step: 1300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.505
+
+                    Speed: 0.592s/iter,
+                    Load: 0.132s/iter,
+                    Remain: 17:53:41
+                    
+
+                    04-24 17:29:23 Epoch: 3, 
+                    Step: 1400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.991
+
+                    Speed: 0.592s/iter,
+                    Load: 0.131s/iter,
+                    Remain: 17:49:59
+                    
+
+                    04-24 17:30:33 Epoch: 3, 
+                    Step: 1500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.293
+
+                    Speed: 0.591s/iter,
+                    Load: 0.130s/iter,
+                    Remain: 17:46:45
+                    
+
+                    04-24 17:31:44 Epoch: 3, 
+                    Step: 1600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 29.504
+
+                    Speed: 0.591s/iter,
+                    Load: 0.129s/iter,
+                    Remain: 17:44:12
+                    
+
+                    04-24 17:32:55 Epoch: 4, 
+                    Step: 1700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.534
+
+                    Speed: 0.590s/iter,
+                    Load: 0.129s/iter,
+                    Remain: 17:41:44
+                    
+
+                    04-24 17:34:06 Epoch: 4, 
+                    Step: 1800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.482
+
+                    Speed: 0.590s/iter,
+                    Load: 0.129s/iter,
+                    Remain: 17:39:50
+                    
+
+                    04-24 17:35:17 Epoch: 4, 
+                    Step: 1900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.756
+
+                    Speed: 0.589s/iter,
+                    Load: 0.128s/iter,
+                    Remain: 17:37:39
+                    
+
+                    04-24 17:36:27 Epoch: 4, 
+                    Step: 2000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.269
+
+                    Speed: 0.589s/iter,
+                    Load: 0.128s/iter,
+                    Remain: 17:35:28
+                    
+
+                    04-24 17:37:38 Epoch: 4, 
+                    Step: 2100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.663
+
+                    Speed: 0.589s/iter,
+                    Load: 0.128s/iter,
+                    Remain: 17:33:23
+                    
+
+                    04-24 17:38:49 Epoch: 4, 
+                    Step: 2200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.137
+
+                    Speed: 0.589s/iter,
+                    Load: 0.127s/iter,
+                    Remain: 17:31:33
+                    
+
+                    04-24 17:40:00 Epoch: 5, 
+                    Step: 2300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.865
+
+                    Speed: 0.588s/iter,
+                    Load: 0.127s/iter,
+                    Remain: 17:29:48
+                    
+
+                    04-24 17:41:12 Epoch: 5, 
+                    Step: 2400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.657
+
+                    Speed: 0.588s/iter,
+                    Load: 0.127s/iter,
+                    Remain: 17:28:24
+                    
+
+                    04-24 17:42:22 Epoch: 5, 
+                    Step: 2500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.438
+
+                    Speed: 0.588s/iter,
+                    Load: 0.127s/iter,
+                    Remain: 17:26:26
+                    
+
+                    04-24 17:43:33 Epoch: 5, 
+                    Step: 2600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.760
+
+                    Speed: 0.588s/iter,
+                    Load: 0.127s/iter,
+                    Remain: 17:24:41
+                    
+
+                    04-24 17:44:43 Epoch: 5, 
+                    Step: 2700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.162
+
+                    Speed: 0.588s/iter,
+                    Load: 0.126s/iter,
+                    Remain: 17:22:54
+                    
+
+                    04-24 17:45:54 Epoch: 6, 
+                    Step: 2800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.884
+
+                    Speed: 0.588s/iter,
+                    Load: 0.126s/iter,
+                    Remain: 17:20:57
+                    
+
+                    04-24 17:47:04 Epoch: 6, 
+                    Step: 2900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.170
+
+                    Speed: 0.587s/iter,
+                    Load: 0.126s/iter,
+                    Remain: 17:19:23
+                    
+
+                    04-24 17:48:15 Epoch: 6, 
+                    Step: 3000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.114
+
+                    Speed: 0.587s/iter,
+                    Load: 0.126s/iter,
+                    Remain: 17:17:45
+                    
+
+                    04-24 17:49:26 Epoch: 6, 
+                    Step: 3100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.183
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:16:03
+                    
+
+                    04-24 17:50:36 Epoch: 6, 
+                    Step: 3200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.961
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:14:19
+                    
+
+                    04-24 17:51:47 Epoch: 6, 
+                    Step: 3300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.375
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:12:53
+                    
+
+                    04-24 17:52:58 Epoch: 7, 
+                    Step: 3400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.702
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:11:19
+                    
+
+                    04-24 17:54:08 Epoch: 7, 
+                    Step: 3500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 32.117
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:09:50
+                    
+
+                    04-24 17:55:19 Epoch: 7, 
+                    Step: 3600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.276
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:08:16
+                    
+
+                    04-24 17:56:30 Epoch: 7, 
+                    Step: 3700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.379
+
+                    Speed: 0.587s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:06:51
+                    
+
+                    04-24 17:57:40 Epoch: 7, 
+                    Step: 3800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.899
+
+                    Speed: 0.586s/iter,
+                    Load: 0.125s/iter,
+                    Remain: 17:05:19
+                    
+
+                    04-24 17:58:51 Epoch: 8, 
+                    Step: 3900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.836
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 17:03:57
+                    
+
+                    04-24 18:00:02 Epoch: 8, 
+                    Step: 4000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.750
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 17:02:40
+                    
+
+                    04-24 18:01:13 Epoch: 8, 
+                    Step: 4100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.648
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 17:01:16
+                    
+
+                    04-24 18:02:23 Epoch: 8, 
+                    Step: 4200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.792
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:59:50
+                    
+
+                    04-24 18:03:34 Epoch: 8, 
+                    Step: 4300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.466
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:58:28
+                    
+
+                    04-24 18:04:45 Epoch: 8, 
+                    Step: 4400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.528
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:57:05
+                    
+
+                    04-24 18:05:56 Epoch: 9, 
+                    Step: 4500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.553
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:55:44
+                    
+
+                    04-24 18:07:07 Epoch: 9, 
+                    Step: 4600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.835
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:54:26
+                    
+
+                    04-24 18:08:17 Epoch: 9, 
+                    Step: 4700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.543
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:53:04
+                    
+
+                    04-24 18:09:27 Epoch: 9, 
+                    Step: 4800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.748
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:51:34
+                    
+
+                    04-24 18:10:38 Epoch: 9, 
+                    Step: 4900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.871
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:50:15
+                    
+
+                    04-24 18:11:49 Epoch: 10, 
+                    Step: 5000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.987
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:48:53
+                    
+
+                    04-24 18:12:59 Epoch: 10, 
+                    Step: 5100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.996
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:47:30
+                    
+
+                    04-24 18:14:10 Epoch: 10, 
+                    Step: 5200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.447
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:46:13
+                    
+
+                    04-24 18:15:21 Epoch: 10, 
+                    Step: 5300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.259
+
+                    Speed: 0.586s/iter,
+                    Load: 0.124s/iter,
+                    Remain: 16:44:53
+                    
+
+                    04-24 18:16:32 Epoch: 10, 
+                    Step: 5400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.579
+
+                    Speed: 0.586s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:43:36
+                    
+
+                    04-24 18:17:42 Epoch: 10, 
+                    Step: 5500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.703
+
+                    Speed: 0.586s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:42:14
+                    
+
+                    04-24 18:18:53 Epoch: 11, 
+                    Step: 5600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.972
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:40:58
+                    
+
+                    04-24 18:20:04 Epoch: 11, 
+                    Step: 5700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.114
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:39:41
+                    
+
+                    04-24 18:21:15 Epoch: 11, 
+                    Step: 5800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.839
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:38:26
+                    
+
+                    04-24 18:22:26 Epoch: 11, 
+                    Step: 5900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.763
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:37:13
+                    
+
+                    04-24 18:23:36 Epoch: 11, 
+                    Step: 6000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.735
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:35:55
+                    
+
+                    04-24 18:24:47 Epoch: 11, 
+                    Step: 6100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.162
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:34:38
+                    
+
+                    04-24 18:25:58 Epoch: 12, 
+                    Step: 6200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.611
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:33:24
+                    
+
+                    04-24 18:27:09 Epoch: 12, 
+                    Step: 6300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.804
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:32:08
+                    
+
+                    04-24 18:28:20 Epoch: 12, 
+                    Step: 6400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.248
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:30:53
+                    
+
+                    04-24 18:29:30 Epoch: 12, 
+                    Step: 6500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.360
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:29:35
+                    
+
+                    04-24 18:30:41 Epoch: 12, 
+                    Step: 6600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.229
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:28:24
+                    
+
+                    04-24 18:31:52 Epoch: 13, 
+                    Step: 6700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 32.193
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:27:12
+                    
+
+                    04-24 18:33:03 Epoch: 13, 
+                    Step: 6800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.588
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:26:01
+                    
+
+                    04-24 18:34:14 Epoch: 13, 
+                    Step: 6900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.033
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:24:47
+                    
+
+                    04-24 18:35:25 Epoch: 13, 
+                    Step: 7000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.637
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:23:34
+                    
+
+                    04-24 18:36:36 Epoch: 13, 
+                    Step: 7100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.518
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:22:17
+                    
+
+                    04-24 18:37:47 Epoch: 13, 
+                    Step: 7200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.353
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:21:04
+                    
+
+                    04-24 18:38:58 Epoch: 14, 
+                    Step: 7300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.564
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:19:49
+                    
+
+                    04-24 18:40:08 Epoch: 14, 
+                    Step: 7400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.138
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:18:33
+                    
+
+                    04-24 18:41:19 Epoch: 14, 
+                    Step: 7500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.604
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:17:18
+                    
+
+                    04-24 18:42:29 Epoch: 14, 
+                    Step: 7600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.195
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:16:02
+                    
+
+                    04-24 18:43:40 Epoch: 14, 
+                    Step: 7700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.342
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:14:47
+                    
+
+                    04-24 18:44:51 Epoch: 15, 
+                    Step: 7800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.196
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:13:32
+                    
+
+                    04-24 18:46:02 Epoch: 15, 
+                    Step: 7900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.900
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:12:19
+                    
+
+                    04-24 18:47:13 Epoch: 15, 
+                    Step: 8000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.687
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:11:08
+                    
+
+                    04-24 18:48:24 Epoch: 15, 
+                    Step: 8100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.117
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:09:55
+                    
+
+                    04-24 18:49:35 Epoch: 15, 
+                    Step: 8200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.668
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:08:42
+                    
+
+                    04-24 18:50:45 Epoch: 15, 
+                    Step: 8300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.841
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:07:29
+                    
+
+                    04-24 18:51:56 Epoch: 16, 
+                    Step: 8400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.773
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:06:12
+                    
+
+                    04-24 18:53:06 Epoch: 16, 
+                    Step: 8500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.754
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:04:57
+                    
+
+                    04-24 18:54:17 Epoch: 16, 
+                    Step: 8600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.214
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:03:45
+                    
+
+                    04-24 18:55:28 Epoch: 16, 
+                    Step: 8700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.101
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:02:33
+                    
+
+                    04-24 18:56:39 Epoch: 16, 
+                    Step: 8800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.026
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:01:19
+                    
+
+                    04-24 18:57:50 Epoch: 17, 
+                    Step: 8900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.857
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 16:00:07
+                    
+
+                    04-24 18:59:01 Epoch: 17, 
+                    Step: 9000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.316
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:58:55
+                    
+
+                    04-24 19:00:12 Epoch: 17, 
+                    Step: 9100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.483
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:57:41
+                    
+
+                    04-24 19:01:22 Epoch: 17, 
+                    Step: 9200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.551
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:56:28
+                    
+
+                    04-24 19:02:33 Epoch: 17, 
+                    Step: 9300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.980
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:55:13
+                    
+
+                    04-24 19:03:44 Epoch: 17, 
+                    Step: 9400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.364
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:54:00
+                    
+
+                    04-24 19:04:55 Epoch: 18, 
+                    Step: 9500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.355
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:52:48
+                    
+
+                    04-24 19:06:05 Epoch: 18, 
+                    Step: 9600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.857
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:51:34
+                    
+
+                    04-24 19:07:16 Epoch: 18, 
+                    Step: 9700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.370
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:50:19
+                    
+
+                    04-24 19:08:27 Epoch: 18, 
+                    Step: 9800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.003
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:49:08
+                    
+
+                    04-24 19:09:37 Epoch: 18, 
+                    Step: 9900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 16.675
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:47:53
+                    
+
+                    04-24 19:10:48 Epoch: 19, 
+                    Step: 10000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.259
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:46:39
+                    
+
+                    04-24 19:11:59 Epoch: 19, 
+                    Step: 10100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.815
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:45:25
+                    
+
+                    04-24 19:13:10 Epoch: 19, 
+                    Step: 10200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.434
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:44:14
+                    
+
+                    04-24 19:14:20 Epoch: 19, 
+                    Step: 10300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.892
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:43:01
+                    
+
+                    04-24 19:15:31 Epoch: 19, 
+                    Step: 10400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.185
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:41:48
+                    
+
+                    04-24 19:16:42 Epoch: 19, 
+                    Step: 10500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.234
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:40:33
+                    
+
+                    04-24 19:17:52 Epoch: 20, 
+                    Step: 10600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.922
+
+                    Speed: 0.585s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:39:19
+                    
+
+                    04-24 19:19:03 Epoch: 20, 
+                    Step: 10700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.241
+
+                    Speed: 0.584s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:38:09
+                    
+
+                    04-24 19:20:14 Epoch: 20, 
+                    Step: 10800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.348
+
+                    Speed: 0.584s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:36:57
+                    
+
+                    04-24 19:21:25 Epoch: 20, 
+                    Step: 10900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.332
+
+                    Speed: 0.584s/iter,
+                    Load: 0.123s/iter,
+                    Remain: 15:35:42
+                    
+
+                    04-24 19:22:35 Epoch: 20, 
+                    Step: 11000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.530
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:34:26
+                    
+
+                    04-24 19:23:45 Epoch: 21, 
+                    Step: 11100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.378
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:33:12
+                    
+
+                    04-24 19:24:56 Epoch: 21, 
+                    Step: 11200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.815
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:32:01
+                    
+
+                    04-24 19:26:07 Epoch: 21, 
+                    Step: 11300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.424
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:30:48
+                    
+
+                    04-24 19:27:18 Epoch: 21, 
+                    Step: 11400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.755
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:29:34
+                    
+
+                    04-24 19:28:29 Epoch: 21, 
+                    Step: 11500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.770
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:28:24
+                    
+
+                    04-24 19:29:39 Epoch: 21, 
+                    Step: 11600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.691
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:27:11
+                    
+
+                    04-24 19:30:50 Epoch: 22, 
+                    Step: 11700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.672
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:26:01
+                    
+
+                    04-24 19:32:01 Epoch: 22, 
+                    Step: 11800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.698
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:24:45
+                    
+
+                    04-24 19:33:11 Epoch: 22, 
+                    Step: 11900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 29.961
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:23:33
+                    
+
+                    04-24 19:34:22 Epoch: 22, 
+                    Step: 12000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.799
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:22:22
+                    
+
+                    04-24 19:35:33 Epoch: 22, 
+                    Step: 12100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.475
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:21:10
+                    
+
+                    04-24 19:36:44 Epoch: 22, 
+                    Step: 12200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.063
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:19:58
+                    
+
+                    04-24 19:37:55 Epoch: 23, 
+                    Step: 12300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.390
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:18:47
+                    
+
+                    04-24 19:39:05 Epoch: 23, 
+                    Step: 12400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.751
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:17:34
+                    
+
+                    04-24 19:40:17 Epoch: 23, 
+                    Step: 12500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.497
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:16:24
+                    
+
+                    04-24 19:41:27 Epoch: 23, 
+                    Step: 12600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.995
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:15:11
+                    
+
+                    04-24 19:42:38 Epoch: 23, 
+                    Step: 12700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.661
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:14:00
+                    
+
+                    04-24 19:43:49 Epoch: 24, 
+                    Step: 12800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.839
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:12:48
+                    
+
+                    04-24 19:45:00 Epoch: 24, 
+                    Step: 12900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.068
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:11:37
+                    
+
+                    04-24 19:46:11 Epoch: 24, 
+                    Step: 13000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.796
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:10:26
+                    
+
+                    04-24 19:47:22 Epoch: 24, 
+                    Step: 13100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.698
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:09:15
+                    
+
+                    04-24 19:48:33 Epoch: 24, 
+                    Step: 13200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.322
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:08:05
+                    
+
+                    04-24 19:49:43 Epoch: 24, 
+                    Step: 13300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 36.869
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:06:51
+                    
+
+                    04-24 19:50:54 Epoch: 25, 
+                    Step: 13400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.291
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:05:41
+                    
+
+                    04-24 19:52:05 Epoch: 25, 
+                    Step: 13500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.536
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:04:28
+                    
+
+                    04-24 19:53:15 Epoch: 25, 
+                    Step: 13600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.487
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:03:14
+                    
+
+                    04-24 19:54:26 Epoch: 25, 
+                    Step: 13700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.746
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:02:04
+                    
+
+                    04-24 19:55:37 Epoch: 25, 
+                    Step: 13800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.484
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 15:00:52
+                    
+
+                    04-24 19:56:48 Epoch: 26, 
+                    Step: 13900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.436
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:59:41
+                    
+
+                    04-24 19:57:59 Epoch: 26, 
+                    Step: 14000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.232
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:58:30
+                    
+
+                    04-24 19:59:10 Epoch: 26, 
+                    Step: 14100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.495
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:57:21
+                    
+
+                    04-24 20:00:21 Epoch: 26, 
+                    Step: 14200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.791
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:56:09
+                    
+
+                    04-24 20:01:32 Epoch: 26, 
+                    Step: 14300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.411
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:54:56
+                    
+
+                    04-24 20:02:42 Epoch: 26, 
+                    Step: 14400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.822
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:53:44
+                    
+
+                    04-24 20:03:53 Epoch: 27, 
+                    Step: 14500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.228
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:52:32
+                    
+
+                    04-24 20:05:04 Epoch: 27, 
+                    Step: 14600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.863
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:51:22
+                    
+
+                    04-24 20:06:15 Epoch: 27, 
+                    Step: 14700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.683
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:50:11
+                    
+
+                    04-24 20:07:26 Epoch: 27, 
+                    Step: 14800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.553
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:48:58
+                    
+
+                    04-24 20:08:37 Epoch: 27, 
+                    Step: 14900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.175
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:47:47
+                    
+
+                    04-24 20:09:47 Epoch: 28, 
+                    Step: 15000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.888
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:46:35
+                    
+
+                    04-24 20:10:58 Epoch: 28, 
+                    Step: 15100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.071
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:45:22
+                    
+
+                    04-24 20:12:08 Epoch: 28, 
+                    Step: 15200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 37.988
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:44:10
+                    
+
+                    04-24 20:13:19 Epoch: 28, 
+                    Step: 15300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.307
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:42:59
+                    
+
+                    04-24 20:14:30 Epoch: 28, 
+                    Step: 15400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.192
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:41:46
+                    
+
+                    04-24 20:15:41 Epoch: 28, 
+                    Step: 15500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.605
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:40:36
+                    
+
+                    04-24 20:16:52 Epoch: 29, 
+                    Step: 15600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.163
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:39:26
+                    
+
+                    04-24 20:18:03 Epoch: 29, 
+                    Step: 15700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.313
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:38:15
+                    
+
+                    04-24 20:19:14 Epoch: 29, 
+                    Step: 15800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.824
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:37:03
+                    
+
+                    04-24 20:20:24 Epoch: 29, 
+                    Step: 15900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.609
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:35:52
+                    
+
+                    04-24 20:21:35 Epoch: 29, 
+                    Step: 16000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.452
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:34:39
+                    
+
+                    04-24 20:22:46 Epoch: 30, 
+                    Step: 16100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 29.173
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:33:27
+                    
+
+                    04-24 20:23:56 Epoch: 30, 
+                    Step: 16200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.850
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:32:14
+                    
+
+                    04-24 20:25:07 Epoch: 30, 
+                    Step: 16300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.470
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:31:04
+                    
+
+                    04-24 20:26:18 Epoch: 30, 
+                    Step: 16400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.812
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:29:52
+                    
+
+                    04-24 20:27:29 Epoch: 30, 
+                    Step: 16500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.866
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:28:41
+                    
+
+                    04-24 20:28:40 Epoch: 30, 
+                    Step: 16600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.351
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:27:30
+                    
+
+                    04-24 20:29:50 Epoch: 31, 
+                    Step: 16700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.253
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:26:16
+                    
+
+                    04-24 20:31:01 Epoch: 31, 
+                    Step: 16800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.662
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:25:05
+                    
+
+                    04-24 20:32:12 Epoch: 31, 
+                    Step: 16900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.109
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:23:53
+                    
+
+                    04-24 20:33:22 Epoch: 31, 
+                    Step: 17000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.538
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:22:42
+                    
+
+                    04-24 20:34:33 Epoch: 31, 
+                    Step: 17100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.090
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:21:28
+                    
+
+                    04-24 20:35:43 Epoch: 31, 
+                    Step: 17200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.697
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:20:15
+                    
+
+                    04-24 20:36:54 Epoch: 32, 
+                    Step: 17300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.984
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:19:04
+                    
+
+                    04-24 20:38:05 Epoch: 32, 
+                    Step: 17400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.070
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:17:53
+                    
+
+                    04-24 20:39:15 Epoch: 32, 
+                    Step: 17500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.830
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:16:41
+                    
+
+                    04-24 20:40:26 Epoch: 32, 
+                    Step: 17600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.457
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:15:30
+                    
+
+                    04-24 20:41:37 Epoch: 32, 
+                    Step: 17700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.202
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:14:20
+                    
+
+                    04-24 20:42:48 Epoch: 33, 
+                    Step: 17800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.229
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:13:10
+                    
+
+                    04-24 20:43:59 Epoch: 33, 
+                    Step: 17900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.105
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:11:58
+                    
+
+                    04-24 20:45:10 Epoch: 33, 
+                    Step: 18000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.362
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:10:46
+                    
+
+                    04-24 20:46:21 Epoch: 33, 
+                    Step: 18100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.850
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:09:35
+                    
+
+                    04-24 20:47:31 Epoch: 33, 
+                    Step: 18200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.299
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:08:23
+                    
+
+                    04-24 20:48:42 Epoch: 33, 
+                    Step: 18300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.076
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:07:11
+                    
+
+                    04-24 20:49:53 Epoch: 34, 
+                    Step: 18400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.560
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:06:01
+                    
+
+                    04-24 20:51:04 Epoch: 34, 
+                    Step: 18500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.266
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:04:49
+                    
+
+                    04-24 20:52:14 Epoch: 34, 
+                    Step: 18600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.060
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:03:38
+                    
+
+                    04-24 20:53:26 Epoch: 34, 
+                    Step: 18700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.980
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:02:28
+                    
+
+                    04-24 20:54:37 Epoch: 34, 
+                    Step: 18800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.562
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:01:18
+                    
+
+                    04-24 20:55:47 Epoch: 35, 
+                    Step: 18900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.543
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 14:00:06
+                    
+
+                    04-24 20:56:58 Epoch: 35, 
+                    Step: 19000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.718
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:58:55
+                    
+
+                    04-24 20:58:09 Epoch: 35, 
+                    Step: 19100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.791
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:57:44
+                    
+
+                    04-24 20:59:20 Epoch: 35, 
+                    Step: 19200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.229
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:56:32
+                    
+
+                    04-24 21:00:31 Epoch: 35, 
+                    Step: 19300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.229
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:55:22
+                    
+
+                    04-24 21:01:42 Epoch: 35, 
+                    Step: 19400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.495
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:54:11
+                    
+
+                    04-24 21:02:52 Epoch: 36, 
+                    Step: 19500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.682
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:52:59
+                    
+
+                    04-24 21:04:04 Epoch: 36, 
+                    Step: 19600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.434
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:51:50
+                    
+
+                    04-24 21:05:14 Epoch: 36, 
+                    Step: 19700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.620
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:50:39
+                    
+
+                    04-24 21:06:25 Epoch: 36, 
+                    Step: 19800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.927
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:49:28
+                    
+
+                    04-24 21:07:36 Epoch: 36, 
+                    Step: 19900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.839
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:48:16
+                    
+
+                    04-24 21:08:47 Epoch: 37, 
+                    Step: 20000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.331
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:47:04
+                    
+
+                    04-24 21:09:58 Epoch: 37, 
+                    Step: 20100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.842
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:45:54
+                    
+
+                    04-24 21:11:08 Epoch: 37, 
+                    Step: 20200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.829
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:44:43
+                    
+
+                    04-24 21:12:19 Epoch: 37, 
+                    Step: 20300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.847
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:43:31
+                    
+
+                    04-24 21:13:30 Epoch: 37, 
+                    Step: 20400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.017
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:42:21
+                    
+
+                    04-24 21:14:41 Epoch: 37, 
+                    Step: 20500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.151
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:41:09
+                    
+
+                    04-24 21:15:51 Epoch: 38, 
+                    Step: 20600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 36.720
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:39:55
+                    
+
+                    04-24 21:17:02 Epoch: 38, 
+                    Step: 20700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.178
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:38:44
+                    
+
+                    04-24 21:18:13 Epoch: 38, 
+                    Step: 20800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.834
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:37:33
+                    
+
+                    04-24 21:19:24 Epoch: 38, 
+                    Step: 20900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.677
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:36:23
+                    
+
+                    04-24 21:20:35 Epoch: 38, 
+                    Step: 21000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.356
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:35:12
+                    
+
+                    04-24 21:21:45 Epoch: 39, 
+                    Step: 21100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.215
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:34:01
+                    
+
+                    04-24 21:22:56 Epoch: 39, 
+                    Step: 21200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.896
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:32:49
+                    
+
+                    04-24 21:24:06 Epoch: 39, 
+                    Step: 21300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.103
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:31:37
+                    
+
+                    04-24 21:25:17 Epoch: 39, 
+                    Step: 21400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.066
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:30:26
+                    
+
+                    04-24 21:26:28 Epoch: 39, 
+                    Step: 21500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.524
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:29:15
+                    
+
+                    04-24 21:27:39 Epoch: 39, 
+                    Step: 21600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.534
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:28:02
+                    
+
+                    04-24 21:28:49 Epoch: 40, 
+                    Step: 21700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.646
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:26:50
+                    
+
+                    04-24 21:30:00 Epoch: 40, 
+                    Step: 21800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.342
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:25:39
+                    
+
+                    04-24 21:31:11 Epoch: 40, 
+                    Step: 21900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.504
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:24:28
+                    
+
+                    04-24 21:32:21 Epoch: 40, 
+                    Step: 22000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 29.737
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:23:17
+                    
+
+                    04-24 21:33:32 Epoch: 40, 
+                    Step: 22100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.009
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:22:06
+                    
+
+                    04-24 21:34:43 Epoch: 41, 
+                    Step: 22200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.653
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:20:54
+                    
+
+                    04-24 21:35:54 Epoch: 41, 
+                    Step: 22300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.829
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:19:44
+                    
+
+                    04-24 21:37:05 Epoch: 41, 
+                    Step: 22400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.560
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:18:33
+                    
+
+                    04-24 21:38:15 Epoch: 41, 
+                    Step: 22500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.267
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:17:22
+                    
+
+                    04-24 21:39:26 Epoch: 41, 
+                    Step: 22600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.396
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:16:09
+                    
+
+                    04-24 21:40:36 Epoch: 41, 
+                    Step: 22700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.055
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:14:58
+                    
+
+                    04-24 21:41:47 Epoch: 42, 
+                    Step: 22800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.939
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:13:46
+                    
+
+                    04-24 21:42:58 Epoch: 42, 
+                    Step: 22900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.334
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:12:35
+                    
+
+                    04-24 21:44:09 Epoch: 42, 
+                    Step: 23000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.481
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:11:23
+                    
+
+                    04-24 21:45:19 Epoch: 42, 
+                    Step: 23100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.799
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:10:12
+                    
+
+                    04-24 21:46:30 Epoch: 42, 
+                    Step: 23200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.730
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:09:02
+                    
+
+                    04-24 21:47:41 Epoch: 42, 
+                    Step: 23300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.198
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:07:51
+                    
+
+                    04-24 21:48:52 Epoch: 43, 
+                    Step: 23400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.841
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:06:40
+                    
+
+                    04-24 21:50:03 Epoch: 43, 
+                    Step: 23500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.282
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:05:29
+                    
+
+                    04-24 21:51:14 Epoch: 43, 
+                    Step: 23600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.669
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:04:18
+                    
+
+                    04-24 21:52:24 Epoch: 43, 
+                    Step: 23700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 32.442
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:03:06
+                    
+
+                    04-24 21:53:35 Epoch: 43, 
+                    Step: 23800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.018
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:01:56
+                    
+
+                    04-24 21:54:46 Epoch: 44, 
+                    Step: 23900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.408
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 13:00:44
+                    
+
+                    04-24 21:55:57 Epoch: 44, 
+                    Step: 24000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.671
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:59:33
+                    
+
+                    04-24 21:57:07 Epoch: 44, 
+                    Step: 24100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.747
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:58:21
+                    
+
+                    04-24 21:58:19 Epoch: 44, 
+                    Step: 24200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.015
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:57:12
+                    
+
+                    04-24 21:59:29 Epoch: 44, 
+                    Step: 24300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.172
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:56:01
+                    
+
+                    04-24 22:00:40 Epoch: 44, 
+                    Step: 24400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.659
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:54:49
+                    
+
+                    04-24 22:01:51 Epoch: 45, 
+                    Step: 24500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.104
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:53:38
+                    
+
+                    04-24 22:03:02 Epoch: 45, 
+                    Step: 24600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 33.648
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:52:27
+                    
+
+                    04-24 22:04:12 Epoch: 45, 
+                    Step: 24700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.797
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:51:16
+                    
+
+                    04-24 22:05:23 Epoch: 45, 
+                    Step: 24800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.181
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:50:05
+                    
+
+                    04-24 22:06:34 Epoch: 45, 
+                    Step: 24900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.575
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:48:55
+                    
+
+                    04-24 22:07:45 Epoch: 46, 
+                    Step: 25000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.884
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:47:45
+                    
+
+                    04-24 22:08:56 Epoch: 46, 
+                    Step: 25100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.333
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:46:34
+                    
+
+                    04-24 22:10:07 Epoch: 46, 
+                    Step: 25200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.041
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:45:23
+                    
+
+                    04-24 22:11:18 Epoch: 46, 
+                    Step: 25300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.234
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:44:12
+                    
+
+                    04-24 22:12:29 Epoch: 46, 
+                    Step: 25400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.366
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:43:01
+                    
+
+                    04-24 22:13:40 Epoch: 46, 
+                    Step: 25500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.602
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:41:50
+                    
+
+                    04-24 22:14:51 Epoch: 47, 
+                    Step: 25600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.805
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:40:39
+                    
+
+                    04-24 22:16:02 Epoch: 47, 
+                    Step: 25700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.990
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:39:29
+                    
+
+                    04-24 22:17:12 Epoch: 47, 
+                    Step: 25800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.915
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:38:18
+                    
+
+                    04-24 22:18:23 Epoch: 47, 
+                    Step: 25900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.815
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:37:07
+                    
+
+                    04-24 22:19:34 Epoch: 47, 
+                    Step: 26000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.304
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:35:56
+                    
+
+                    04-24 22:20:45 Epoch: 48, 
+                    Step: 26100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.250
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:34:45
+                    
+
+                    04-24 22:21:56 Epoch: 48, 
+                    Step: 26200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.732
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:33:34
+                    
+
+                    04-24 22:23:07 Epoch: 48, 
+                    Step: 26300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.234
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:32:23
+                    
+
+                    04-24 22:24:17 Epoch: 48, 
+                    Step: 26400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.675
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:31:12
+                    
+
+                    04-24 22:25:28 Epoch: 48, 
+                    Step: 26500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.844
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:30:01
+                    
+
+                    04-24 22:26:39 Epoch: 48, 
+                    Step: 26600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.934
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:28:50
+                    
+
+                    04-24 22:27:50 Epoch: 49, 
+                    Step: 26700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.029
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:27:38
+                    
+
+                    04-24 22:29:01 Epoch: 49, 
+                    Step: 26800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.529
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:26:28
+                    
+
+                    04-24 22:30:11 Epoch: 49, 
+                    Step: 26900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.070
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:25:17
+                    
+
+                    04-24 22:31:22 Epoch: 49, 
+                    Step: 27000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.953
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:24:06
+                    
+
+                    04-24 22:32:33 Epoch: 49, 
+                    Step: 27100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.660
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:22:55
+                    
+
+                    04-24 22:33:44 Epoch: 50, 
+                    Step: 27200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.598
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:21:44
+                    
+
+                    04-24 22:34:55 Epoch: 50, 
+                    Step: 27300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.603
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:20:33
+                    
+
+                    04-24 22:36:05 Epoch: 50, 
+                    Step: 27400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.140
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:19:21
+                    
+
+                    04-24 22:37:16 Epoch: 50, 
+                    Step: 27500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.151
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:18:10
+                    
+
+                    04-24 22:38:27 Epoch: 50, 
+                    Step: 27600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.966
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:16:59
+                    
+
+                    04-24 22:39:38 Epoch: 50, 
+                    Step: 27700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 16.168
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:15:48
+                    
+
+                    04-24 22:40:49 Epoch: 51, 
+                    Step: 27800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.406
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:14:38
+                    
+
+                    04-24 22:41:59 Epoch: 51, 
+                    Step: 27900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 25.114
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:13:27
+                    
+
+                    04-24 22:43:10 Epoch: 51, 
+                    Step: 28000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.689
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:12:15
+                    
+
+                    04-24 22:44:21 Epoch: 51, 
+                    Step: 28100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.867
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:11:05
+                    
+
+                    04-24 22:45:32 Epoch: 51, 
+                    Step: 28200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.304
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:09:54
+                    
+
+                    04-24 22:46:43 Epoch: 52, 
+                    Step: 28300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 20.778
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:08:43
+                    
+
+                    04-24 22:47:53 Epoch: 52, 
+                    Step: 28400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.671
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:07:31
+                    
+
+                    04-24 22:49:04 Epoch: 52, 
+                    Step: 28500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.225
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:06:19
+                    
+
+                    04-24 22:50:14 Epoch: 52, 
+                    Step: 28600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.273
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:05:08
+                    
+
+                    04-24 22:51:25 Epoch: 52, 
+                    Step: 28700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 19.494
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:03:58
+                    
+
+                    04-24 22:52:36 Epoch: 52, 
+                    Step: 28800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 30.338
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:02:47
+                    
+
+                    04-24 22:53:47 Epoch: 53, 
+                    Step: 28900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 24.448
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:01:36
+                    
+
+                    04-24 22:54:58 Epoch: 53, 
+                    Step: 29000, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 31.928
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 12:00:25
+                    
+
+                    04-24 22:56:09 Epoch: 53, 
+                    Step: 29100, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.663
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:59:14
+                    
+
+                    04-24 22:57:20 Epoch: 53, 
+                    Step: 29200, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 27.356
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:58:03
+                    
+
+                    04-24 22:58:30 Epoch: 53, 
+                    Step: 29300, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 17.990
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:56:52
+                    
+
+                    04-24 22:59:41 Epoch: 53, 
+                    Step: 29400, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 26.428
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:55:41
+                    
+
+                    04-24 23:00:52 Epoch: 54, 
+                    Step: 29500, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 22.590
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:54:30
+                    
+
+                    04-24 23:02:03 Epoch: 54, 
+                    Step: 29600, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 21.562
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:53:19
+                    
+
+                    04-24 23:03:13 Epoch: 54, 
+                    Step: 29700, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 23.785
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:52:08
+                    
+
+                    04-24 23:04:24 Epoch: 54, 
+                    Step: 29800, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 18.816
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:50:57
+                    
+
+                    04-24 23:05:35 Epoch: 54, 
+                    Step: 29900, 
+                    Learning rate: 9.999999747378752e-05,
+                    Loss: 28.095
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:49:45
+                    
+
+                    04-24 23:06:46 Epoch: 55, 
+                    Step: 30000, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 35.228
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:48:34
+                    
+04-24 23:06:46 Saving checkpoint file to: data/output/2018_04_24_17_12
+
+                    04-24 23:07:57 Epoch: 55, 
+                    Step: 30100, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.074
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:47:25
+                    
+
+                    04-24 23:09:09 Epoch: 55, 
+                    Step: 30200, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.790
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:46:16
+                    
+
+                    04-24 23:10:20 Epoch: 55, 
+                    Step: 30300, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.699
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:45:06
+                    
+
+                    04-24 23:11:31 Epoch: 55, 
+                    Step: 30400, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.125
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:43:55
+                    
+
+                    04-24 23:12:42 Epoch: 55, 
+                    Step: 30500, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 33.838
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:42:45
+                    
+
+                    04-24 23:13:53 Epoch: 56, 
+                    Step: 30600, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.125
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:41:34
+                    
+
+                    04-24 23:15:05 Epoch: 56, 
+                    Step: 30700, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 22.764
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:40:25
+                    
+
+                    04-24 23:16:16 Epoch: 56, 
+                    Step: 30800, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.699
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:39:14
+                    
+
+                    04-24 23:17:27 Epoch: 56, 
+                    Step: 30900, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.596
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:38:04
+                    
+
+                    04-24 23:18:39 Epoch: 56, 
+                    Step: 31000, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 24.716
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:36:54
+                    
+
+                    04-24 23:19:50 Epoch: 57, 
+                    Step: 31100, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 16.747
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:35:44
+                    
+
+                    04-24 23:21:01 Epoch: 57, 
+                    Step: 31200, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 22.173
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:34:33
+                    
+
+                    04-24 23:22:12 Epoch: 57, 
+                    Step: 31300, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.025
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:33:23
+                    
+
+                    04-24 23:23:23 Epoch: 57, 
+                    Step: 31400, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.662
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:32:13
+                    
+
+                    04-24 23:24:34 Epoch: 57, 
+                    Step: 31500, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.033
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:31:02
+                    
+
+                    04-24 23:25:46 Epoch: 57, 
+                    Step: 31600, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 22.078
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:29:52
+                    
+
+                    04-24 23:26:57 Epoch: 58, 
+                    Step: 31700, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 24.627
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:28:42
+                    
+
+                    04-24 23:28:08 Epoch: 58, 
+                    Step: 31800, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.636
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:27:32
+                    
+
+                    04-24 23:29:19 Epoch: 58, 
+                    Step: 31900, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 22.592
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:26:21
+                    
+
+                    04-24 23:30:31 Epoch: 58, 
+                    Step: 32000, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.667
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:25:11
+                    
+
+                    04-24 23:31:42 Epoch: 58, 
+                    Step: 32100, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 19.111
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:24:01
+                    
+
+                    04-24 23:32:53 Epoch: 59, 
+                    Step: 32200, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 22.668
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:22:50
+                    
+
+                    04-24 23:34:04 Epoch: 59, 
+                    Step: 32300, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.078
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:21:40
+                    
+
+                    04-24 23:35:15 Epoch: 59, 
+                    Step: 32400, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.925
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:20:29
+                    
+
+                    04-24 23:36:26 Epoch: 59, 
+                    Step: 32500, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 25.111
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:19:19
+                    
+
+                    04-24 23:37:37 Epoch: 59, 
+                    Step: 32600, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 27.396
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:18:09
+                    
+
+                    04-24 23:38:49 Epoch: 59, 
+                    Step: 32700, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 28.348
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:16:59
+                    
+
+                    04-24 23:40:00 Epoch: 60, 
+                    Step: 32800, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 18.725
+
+                    Speed: 0.584s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:15:49
+                    
+
+                    04-24 23:41:11 Epoch: 60, 
+                    Step: 32900, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 27.865
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:14:38
+                    
+
+                    04-24 23:42:22 Epoch: 60, 
+                    Step: 33000, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.820
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:13:27
+                    
+
+                    04-24 23:43:33 Epoch: 60, 
+                    Step: 33100, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 25.684
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:12:17
+                    
+
+                    04-24 23:44:44 Epoch: 60, 
+                    Step: 33200, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.588
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:11:06
+                    
+
+                    04-24 23:45:56 Epoch: 61, 
+                    Step: 33300, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.202
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:09:57
+                    
+
+                    04-24 23:47:07 Epoch: 61, 
+                    Step: 33400, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.911
+
+                    Speed: 0.585s/iter,
+                    Load: 0.122s/iter,
+                    Remain: 11:08:46
+                    
+
+                    04-24 23:48:18 Epoch: 61, 
+                    Step: 33500, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.680
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:07:36
+                    
+
+                    04-24 23:49:29 Epoch: 61, 
+                    Step: 33600, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 20.285
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:06:25
+                    
+
+                    04-24 23:50:41 Epoch: 61, 
+                    Step: 33700, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 25.369
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:05:15
+                    
+
+                    04-24 23:51:52 Epoch: 61, 
+                    Step: 33800, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 19.842
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:04:05
+                    
+
+                    04-24 23:53:03 Epoch: 62, 
+                    Step: 33900, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 25.373
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:02:55
+                    
+
+                    04-24 23:54:15 Epoch: 62, 
+                    Step: 34000, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 41.367
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:01:45
+                    
+
+                    04-24 23:55:26 Epoch: 62, 
+                    Step: 34100, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 23.662
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 11:00:34
+                    
+
+                    04-24 23:56:37 Epoch: 62, 
+                    Step: 34200, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 18.891
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 10:59:23
+                    
+
+                    04-24 23:57:48 Epoch: 62, 
+                    Step: 34300, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 24.230
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 10:58:13
+                    
+
+                    04-24 23:58:59 Epoch: 62, 
+                    Step: 34400, 
+                    Learning rate: 9.999999747378752e-06,
+                    Loss: 21.088
+
+                    Speed: 0.585s/iter,
+                    Load: 0.121s/iter,
+                    Remain: 10:57:03
+                    

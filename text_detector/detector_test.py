@@ -257,8 +257,8 @@ def main():
     #parser.add_argument('--weights', default="YOLO_small.ckpt", type=str)
     #parser.add_argument('--weight_dir', default='weights', type=str)
 
-    parser.add_argument('--weights', default="yolo_text_detect.ckpt-30000", type=str)
-    parser.add_argument('--weight_dir', default='output/2018_04_22_13_49/', type=str)
+    parser.add_argument('--weights', default="yolo_text_detect.ckpt-90000", type=str)
+    parser.add_argument('--weight_dir', default='output/2018_04_24_17_12/', type=str)
 
     parser.add_argument('--data_dir', default="data", type=str)
     parser.add_argument('--gpu', default='', type=str)
